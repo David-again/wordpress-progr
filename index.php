@@ -14,3 +14,15 @@ greet("Danny", "blue");
 <p>
 <?php bloginfo('description') ?>
 </p>
+
+<?php
+ $names = array('Jenny', 'Jessie', 'Judie', 'Jackie', 'Jimmy');
+  
+ $count = 0;
+ while($count < count($names)) {
+     echo "<li> $names[$count] </li>";
+     $count++;
+ }
+
+
+?>
